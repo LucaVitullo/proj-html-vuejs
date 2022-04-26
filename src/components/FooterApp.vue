@@ -1,6 +1,6 @@
 <template>
   <div class="FooterApp">
-        <div class="row me-0 mt-4 justify-content-center">
+        <div class="row me-0 mt-4 justify-content-center ">
             <div class="col-5 text-start " >
                 <span class="fw-bold py-2">Address</span>
                 <div v-for="i in Address" :key="i">
@@ -25,7 +25,15 @@
                     {{i}}
                 </div>
             </div>
-            <h6 class="my-4 text-secondary"> <font-awesome-icon icon="fa-regular fa-copyright" /> 2020 Maxcoach. All Rights Reserved </h6>
+            <h6 class="my-4 text-secondary position-relative"> 
+             <font-awesome-icon icon="fa-regular fa-copyright" />
+              2020 Maxcoach. All Rights Reserved
+              <font-awesome-icon class="position-absolute bottom-0 end-0 p-4 me-2 bg-success text-light rounded-pill" icon="fa-solid fa-arrow-up" />
+            </h6>
+
+              
+
+
         </div>
         
     </div>
