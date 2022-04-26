@@ -10,10 +10,19 @@ import {faUser} from '@fortawesome/free-solid-svg-icons'
 import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
 import {faCircleMinus} from '@fortawesome/free-solid-svg-icons'
 import {faCirclePlus} from '@fortawesome/free-solid-svg-icons'
+import {faFileLines} from '@fortawesome/free-solid-svg-icons'
+import {faLocationDot} from '@fortawesome/free-solid-svg-icons'
+import {faCircle} from '@fortawesome/free-solid-svg-icons'
+import {faFacebookSquare} from '@fortawesome/free-brands-svg-icons'
+import {faTwitter} from '@fortawesome/free-brands-svg-icons'
+import {faInstagram} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import {faCopyright} from '@fortawesome/free-regular-svg-icons'
+
 
 //library
 import { library } from '@fortawesome/fontawesome-svg-core'
-library.add(faAngleDown,faCartShopping,faUser,faArrowRight,faCircleMinus,faCirclePlus,)
+library.add(faAngleDown,faCartShopping,faUser,faArrowRight,faCircleMinus,faCirclePlus,faFileLines,faLocationDot,faCircle,faFacebookSquare,faTwitter,faInstagram,faLinkedin,faCopyright)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false

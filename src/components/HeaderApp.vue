@@ -35,9 +35,6 @@
 <script>
 export default {
   name: 'HeaderApp',
-  props: {
-
-  },
   data(){
     return {
       navBar: [
