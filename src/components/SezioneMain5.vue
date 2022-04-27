@@ -8,7 +8,7 @@
       <div class="col-5 rating-bg m-2" v-for="element,i in Events" :key="i">
         <div class="row justify-content-center border_hover">
           <div class="col-8 p-2 text-start">
-            <span class="text-secondary">{{element.Position}}</span>
+            <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-location-dot" /> {{element.Position}}</span>
             <p class="fw-bold">{{element.Name_event}}</p>
           </div>
           <div class="col-3 p-2 d-flex flex-column">
