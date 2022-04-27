@@ -5,11 +5,11 @@
       <h2>Build Your Dream <span class="text-success ">TODAY</span></h2>
     </div>
     <div class="row justify-content-center mt-4 me-0">
-      <div class="col-2 d-flex flex-column center" v-for="element in courses" :key="element">
+      <div class="col-2 d-flex flex-column center" v-for="element,i in courses" :key="i">
         <img class="w-50 m-auto" :src="require(`../assets/img/${element.Image_courses}`)"/>
         <span class="fs-6 mb-2 fw-bold">{{element.Title}}</span>
         <span class="text-secondary mb-2">{{element.Paragraph}}</span>
-        <span class=" hover">{{element.Label}}<font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
+        <span class=" hover">{{ element.Label }} <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
       </div>
     </div>
   </section>
