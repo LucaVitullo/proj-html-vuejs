@@ -49,6 +49,8 @@ name: 'SezioneMain2',
 }
 </script>
 
-<style>
-
+<style  lang="scss">
+.sezione2{
+  background-color: whitesmoke;
+}
 </style>

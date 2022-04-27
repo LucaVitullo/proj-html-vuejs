@@ -1,5 +1,5 @@
 <template>
-<section class="SezioneMain1 mb-4">
+<section class="Sezione1 mb-4">
     <div class="row text-center mt-4 me-0">
       <span class="text-secondary mb-3">START LEARNING CODING LANGUAGES</span>
       <h2>Build Your Dream <span class="text-success ">TODAY</span></h2>
@@ -44,5 +44,4 @@ name: 'SezioneMain1',
 </script>
 
 <style lang ='scss'>
-
 </style>

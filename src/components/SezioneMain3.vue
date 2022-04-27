@@ -3,8 +3,9 @@
     <div class="row justify-content-center pt-4 me-0 mb-4 flex-wrap">
       <span class="text-secondary fs-6"> CHOOSE WHERE YOU'D LIKE TO BEGIN</span>
       <h1 class="p-2 mt-2">Latest Featured<span class="text-success"> Courses</span></h1>
-      <div class="col-3 m-2">
+      <div class="col-3 m-2 position-relative">
         <img class="w-100 rounded-3" src="../assets/img/course-02-480x298.jpg" alt="">
+        <label class="bg-success text-white p-2 rounded-2 position-absolute top-0 end-0 m_12">$40.00</label>
         <div class="d-flex p-3 align-items-center" >
           <img class=" rounded-circle me-2" src="../assets/img/73ee246daf47502812ccefc84bf02898.jpeg" alt="">
           <span>Blanche Fields</span>
@@ -13,8 +14,9 @@
           <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-file-lines" /> 20 Lessons </span>
           <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-user" /> 50 Students</span>
       </div>
-      <div class="col-3 m-2">
+      <div class="col-3 m-2 position-relative">
         <img class="w-100 rounded-3" src="../assets/img/stock-full-hd-03-480x298.jpg" alt="">
+        <label class="bg-success text-white p-2 rounded-2 position-absolute top-0 end-0 m_12">Free</label>
         <div class="d-flex p-3 align-items-center" >
           <img class=" rounded-circle me-2" src="../assets/img/d0d504142acfde820eef2f11feea6253.jpeg" alt="">
           <span>Maggie Strickland</span>
@@ -23,8 +25,9 @@
           <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-file-lines" /> 24 Lessons </span>
           <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-user" /> 769 Students</span>
       </div>
-      <div class="col-3 m-2">
+      <div class="col-3 m-2 position-relative">
         <img class="w-100 rounded-3" src="../assets/img/stock-full-hd-04-480x298.jpg" alt="">
+        <label class="bg-success text-white p-2 rounded-2 position-absolute top-0 end-0 m_12">$19.00</label>
         <div class="d-flex p-3 align-items-center" >
           <img class=" rounded-circle me-2" src="../assets/img/d0d504142acfde820eef2f11feea6253.jpeg" alt="">
           <span>Maggie Strickland</span>
@@ -33,8 +36,9 @@
           <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-file-lines" /> 17 Lessons </span>
           <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-user" /> 62 Students</span>
       </div>
-      <div class="col-3 m-2">
+      <div class="col-3 m-2 position-relative">
         <img class="w-100 rounded-3" src="../assets/img/stock-full-hd-06-480x298.jpg" alt="">
+        <label class="bg-success text-white p-2 rounded-2 position-absolute top-0 end-0 m_12">$26.00</label>
         <div class="d-flex p-3 align-items-center" >
           <img class=" rounded-circle me-2" src="../assets/img/73ee246daf47502812ccefc84bf02898.jpeg" alt="">
           <span>Blanche Fields</span>
@@ -43,8 +47,9 @@
           <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-file-lines" /> 14 Lessons </span>
           <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-user" /> 67 Students</span>
       </div>
-      <div class="col-3 m-2">
+      <div class="col-3 m-2 position-relative">
         <img class="w-100 rounded-3" src="../assets/img/course-featured-image-01-480x298.jpg" alt="">
+        <label class="bg-success text-white p-2 rounded-2 position-absolute top-0 end-0 m_12">$39.00</label>
         <div class="d-flex p-3 align-items-center" >
           <img class=" rounded-circle me-2" src="../assets/img/73ee246daf47502812ccefc84bf02898.jpeg" alt="">
           <span>Blanche Fields</span>
@@ -53,8 +58,9 @@
           <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-file-lines" /> 6 Lessons </span>
           <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-user" /> 51 Students</span>
       </div>
-      <div class="col-3 m-2">
+      <div class="col-3 m-2 position-relative">
         <img class="w-100 rounded-3" src="../assets/img/stock-full-hd-05-480x298.jpg" alt="">
+        <label class="bg-success text-white p-2 rounded-2 position-absolute top-0 end-0 m_12">$59.00</label>
         <div class="d-flex p-3 align-items-center" >
           <img class=" rounded-circle me-2" src="../assets/img/73ee246daf47502812ccefc84bf02898.jpeg" alt="">
           <span>Blanche Fields</span>
@@ -78,5 +84,7 @@ name: 'SezioneMain3',
 </script>
 
 <style>
-
+.m_12{
+  margin-right: 12px;
+}
 </style>

@@ -26,7 +26,7 @@
       Complete Your Dreams in JavaS Programming
     </h1>
     <p class="px-3" >Learn any coding program in distance and for a reasonable fee. You don't have to struggle alone, you've got our assistance and help.</p>
-    <button class=" mx-3 bg-success text-light border-0 p-2 rounded-3"> Download free E-book</button>
+    <button class=" mx-3 bg-success text-light border-0 p-3 rounded-3"> <font-awesome-icon icon="fa-solid fa-download" /> Download free E-book</button>
   </div>
   <div class="col-6">
     <img src="../assets/img/home-5-hero-image.png" alt="">
@@ -49,5 +49,7 @@ export default {
 <style  lang="scss" >
 .HeaderApp{
   background-color: #dedbd9;
+  background-image: url(../assets/img/jumbo-overlay.svg);
+  
 }
 </style>
