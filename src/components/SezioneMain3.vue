@@ -1,6 +1,6 @@
 <template>
    <section class="sezione3">
-    <div class="row justify-content-center pt-4 me-0 mb-4 flex-wrap px-0" >
+    <div class="row px-0 justify-content-center pt-4 me-0 mb-4 flex-wrap  " >
       <span class="text-secondary fs-6"> CHOOSE WHERE YOU'D LIKE TO BEGIN</span>
       <h1 class="p-2 mt-2">Latest Featured<span class="text-success"> Courses</span></h1>
       <div class="col-3 m-2 position-relative bg_hover">

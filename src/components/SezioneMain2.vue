@@ -20,7 +20,7 @@
       </div>
 
     </div>
-    <div class="row me-0 justify-content-center mt-4 p-4 rating-bg">
+    <div class="row me-0 justify-content-center mt-4 p-4 bg_lv">
       <div class="col-2 p-2">
         <h1 class="text-success">1.926</h1>
         <span>FINISHED SESSION</span>
@@ -52,5 +52,9 @@ name: 'SezioneMain2',
 <style  lang="scss">
 .sezione2{
   background-color: whitesmoke;
+};
+.bg_lv{
+  background-color: #faf8f6;
+
 }
 </style>

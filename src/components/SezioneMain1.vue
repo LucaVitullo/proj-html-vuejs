@@ -5,31 +5,11 @@
       <h2>Build Your Dream <span class="text-success ">TODAY</span></h2>
     </div>
     <div class="row justify-content-center mt-4 me-0">
-      <div class="col-2 d-flex flex-column center">
-        <img class="w-50 m-auto" src="../assets/img/home-5-image-box-01.png" alt="">
-        <span class="fs-6 mb-2 fw-bold">Idea Discussion</span>
-        <span class="text-secondary mb-2">Get teamed up with the specialists who work and teach coding for years at famous universities</span>
-        <span class=" hover"> Start now  <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
-      </div>
-      <div class="col-2 d-flex flex-column center">
-        <img class="w-50 m-auto" src="../assets/img/home-5-image-box-02.png" alt="">
-        <span class="fs-6 mb-2 fw-bold" >Web Development</span>
-        <span class="text-secondary mb-2">Get teamed up with the specialists who work and teach coding for years at famous universities</span>
-        <span class=" hover"> Start now <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
-
-      </div>
-      <div class="col-2 d-flex flex-column center">
-        <img class="w-50 m-auto" src="../assets/img/home-5-image-box-03.png" alt="">
-        <span class="fs-6 mb-2 fw-bold">System Administration</span>
-        <span class="text-secondary mb-2">Get teamed up with the specialists who work and teach coding for years at famous universities</span>
-        <span class="hover"> Start now <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
-
-      </div>
-      <div class="col-2 d-flex flex-column center">
-        <img class="w-50 m-auto" src="../assets/img/home-5-image-box-04.png" alt="">
-        <span class="fs-6 mb-2 fw-bold">Graphic Design</span>
-        <span class="text-secondary mb-2">Get teamed up with the specialists who work and teach coding for years at famous universities</span>
-        <span class=" hover"> Start now   <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
+      <div class="col-2 d-flex flex-column center" v-for="element in courses" :key="element">
+        <img class="w-50 m-auto" :src: {{element.Image_courses}} alt="">
+        <span class="fs-6 mb-2 fw-bold">{{element.Title}}</span>
+        <span class="text-secondary mb-2">{{element.Paragraph}}</span>
+        <span class=" hover"> {{element.Label}}  <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
       </div>
     </div>
   </section>
@@ -38,7 +18,33 @@
 
 <script>
 export default {
-name: 'SezioneMain1',
+  name: 'SezioneMain1',
+  data(){
+    return {
+      courses:[
+        {Image_courses: "../assets/img/home-5-image-box-01.png",
+          Title:"Idea Discussion",
+          Paragraph:"Get teamed up with the specialists who work and teach coding for years at famous universities",
+          Label:"Start now",
+        },
+        {Image_courses: "../assets/img/home-5-image-box-02.png",
+          Title:"Web Development",
+          Paragraph:"Learn to start building a webpage from scratch. You decide your own pace, course and speed",
+          Label:"Start now",
+        },
+        {Image_courses: "../assets/img/home-5-image-box-03.png",
+          Title:"System Administration",
+          Paragraph:"Learners are encouraged to study the mechanism and structure of system administration",
+          Label:"Start now",
+        },
+        {Image_courses: "../assets/img/home-5-image-box-04.png",
+          Title:"Graphic Design",
+          Paragraph:"Have a passion for graphics and arts? Show your talents with confidence and self-assertiveness",
+          Label:"Start now",
+        },
+      ]
+    }
+  }
 
 }
 </script>
@@ -49,7 +55,7 @@ name: 'SezioneMain1',
   cursor: pointer;
 &:hover{
   color:green;
-  background-color: opacify($color: #f8f8f8, $amount: 0);
+  background-color: opacity($color: #f8f8f8, $amount: 0);
   }
 }
 </style>
