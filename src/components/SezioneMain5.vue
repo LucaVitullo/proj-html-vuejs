@@ -6,7 +6,7 @@
     </div>
     <div class="row justify-content-center me-0 pt-4">
       <div class="col-5 rating-bg m-2">
-        <div class="row justify-content-center ">
+        <div class="row justify-content-center border_hover">
           <div class="col-8 p-2 text-start">
             <span class="text-secondary">Texas, US</span>
             <p class="fw-bold">Storytelling Workshop</p>
@@ -14,12 +14,12 @@
           <div class="col-3 p-2 d-flex flex-column">
             <span class="text-success fs-2"> 22</span>
             <span class=" fs-5"> NOV</span>
-            <button class="bg-success border-0 rounded-2 text-white"> Get ticket</button>
+            <button class=" border-0 rounded-2 text-white"> Get ticket</button>
           </div>
         </div>
       </div>
-      <div class="col-5 rating-bg m-2">
-        <div class="row justify-content-center ">
+      <div class="col-5 rating-bg m-2 ">
+        <div class="row justify-content-center border_hover ">
           <div class="col-8 p-2 text-start">
             <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-location-dot" /> New York, US</span>
             <p class="fw-bold">Painting Art Contest 2020</p>
@@ -27,12 +27,12 @@
           <div class="col-3 p-2 d-flex flex-column">
             <span class="text-success fs-2"> 10</span>
             <span class=" fs-5"> OCT</span>
-            <button class="bg-success border-0 rounded-2 text-white"> Get ticket</button>
+            <button class=" border-0 rounded-2 text-white"> Get ticket</button>
           </div>
         </div>
       </div>
       <div class="col-5 rating-bg m-2">
-        <div class="row justify-content-center ">
+        <div class="row justify-content-center border_hover">
           <div class="col-8 p-2 text-start">
             <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-location-dot" /> Hamburg, Germany</span>
             <p class="fw-bold">International Art Fair 2020</p>
@@ -40,12 +40,12 @@
           <div class="col-3 p-2 d-flex flex-column">
             <span class="text-success fs-2"> 23</span>
             <span class=" fs-5"> NOV</span>
-            <button class="bg-success border-0 rounded-2 text-white"> Get ticket</button>
+            <button class=" border-0 rounded-2 text-white"> Get ticket</button>
           </div>
         </div>
       </div>
       <div class="col-5 rating-bg m-2">
-        <div class="row justify-content-center ">
+        <div class="row justify-content-center border_hover">
           <div class="col-8 p-2 text-start">
             <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-location-dot" /> Illinois, US</span>
             <p class="fw-bold">Street Performance: Call for Artist</p>
@@ -53,12 +53,12 @@
           <div class="col-3 p-2 d-flex flex-column">
             <span class="text-success fs-2"> 15</span>
             <span class=" fs-5"> DEC</span>
-            <button class="bg-success border-0 rounded-2 text-white"> Get ticket</button>
+            <button class=" border-0 rounded-2 text-white"> Get ticket</button>
           </div>
         </div>
       </div>
       <div class="col-5 rating-bg m-2">
-        <div class="row justify-content-center ">
+        <div class="row justify-content-center border_hover">
           <div class="col-8 p-2 text-start">
             <span class="text-secondary"><font-awesome-icon icon="fa-solid fa-location-dot" /> Illinois, US</span>
             <p class="fw-bold">Consumer Food Safety Education Conference</p>
@@ -66,12 +66,12 @@
           <div class="col-3 p-2 d-flex flex-column">
             <span class="text-success fs-2"> 22</span>
             <span class=" fs-5"> JUL</span>
-            <button class="bg-success border-0 rounded-2 text-white"> Get ticket</button>
+            <button class=" border-0 rounded-2 text-white"> Get ticket</button>
           </div>
         </div>
       </div>
       <div class="col-5 rating-bg m-2">
-        <div class="row justify-content-center ">
+        <div class="row justify-content-center border_hover">
           <div class="col-8 p-2 text-start">
             <span class="text-secondary"> <font-awesome-icon icon="fa-solid fa-location-dot" /> Dubai</span>
             <p class="fw-bold">How meditation improve your mental health?</p>
@@ -79,7 +79,7 @@
           <div class="col-3 p-2 d-flex flex-column">
             <span class="text-success fs-2"> 12</span>
             <span class=" fs-5"> AUG</span>
-            <button class="bg-success border-0 rounded-2 text-white"> Get ticket</button>
+            <button class=" border-0 rounded-2 text-white"> Get ticket</button>
           </div>
         </div>
       </div>
@@ -96,5 +96,19 @@ name: 'SezioneMain5',
 </script>
 
 <style lang ='scss'>
+.rating-bg{
+  background-color: #faf8f6;
+&:hover{
+  background-color: #ffff;
+  border-left: 2px solid green
+
+};
+};
+.rating-bg button{
+  background-color: green;
+&:hover{
+  background-color: #513e5e;
+};
+};
 
 </style>

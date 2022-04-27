@@ -9,27 +9,27 @@
         <img class="w-50 m-auto" src="../assets/img/home-5-image-box-01.png" alt="">
         <span class="fs-6 mb-2 fw-bold">Idea Discussion</span>
         <span class="text-secondary mb-2">Get teamed up with the specialists who work and teach coding for years at famous universities</span>
-        <span class="text-secondary"> Start now  <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
+        <span class=" hover"> Start now  <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
       </div>
       <div class="col-2 d-flex flex-column center">
         <img class="w-50 m-auto" src="../assets/img/home-5-image-box-02.png" alt="">
         <span class="fs-6 mb-2 fw-bold" >Web Development</span>
         <span class="text-secondary mb-2">Get teamed up with the specialists who work and teach coding for years at famous universities</span>
-        <span class="text-secondary"> Start now <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
+        <span class=" hover"> Start now <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
 
       </div>
       <div class="col-2 d-flex flex-column center">
         <img class="w-50 m-auto" src="../assets/img/home-5-image-box-03.png" alt="">
         <span class="fs-6 mb-2 fw-bold">System Administration</span>
         <span class="text-secondary mb-2">Get teamed up with the specialists who work and teach coding for years at famous universities</span>
-        <span class="text-secondary"> Start now <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
+        <span class="hover"> Start now <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
 
       </div>
       <div class="col-2 d-flex flex-column center">
         <img class="w-50 m-auto" src="../assets/img/home-5-image-box-04.png" alt="">
         <span class="fs-6 mb-2 fw-bold">Graphic Design</span>
         <span class="text-secondary mb-2">Get teamed up with the specialists who work and teach coding for years at famous universities</span>
-        <span class="text-secondary"> Start now   <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
+        <span class=" hover"> Start now   <font-awesome-icon icon="fa-solid fa-arrow-right" /></span>
       </div>
     </div>
   </section>
@@ -44,4 +44,12 @@ name: 'SezioneMain1',
 </script>
 
 <style lang ='scss'>
+.hover{
+  color: grey;
+  cursor: pointer;
+&:hover{
+  color:green;
+  background-color: opacify($color: #f8f8f8, $amount: 0);
+  }
+}
 </style>
