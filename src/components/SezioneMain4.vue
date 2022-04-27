@@ -10,13 +10,16 @@
         <span><font-awesome-icon class="text-success me-2" icon="fa-solid fa-angle-down" /> Get the desired certificate delivered at house</span>
         <button class=" bg-success text-white p-3 rounded-3 border-0 my-4"> Get started for free</button>
       </div>
-      <div class="col-5 m-4 d-flex flex-column align-items-start p-4">
-        <img class="bg-avatar-grey w-100" src="../assets/img/home-5-image-01.png" alt="">
+      <div class="col-5 m-4 d-flex flex-column align-items-start p-4 position-relative">
+        <img class=" bg-avatar-grey w_95" src="../assets/img/home-5-image-01.png" alt="">
+        <img class=" w_25 position-absolute top-50 start-100 translate-middle" src="../assets/img/maxcoach-shape-05.png" alt="">
       </div>
     </div>
     <div class="row justify-content-center me-0 my-4">
-      <div class="col-5">
-        <img class="bg-avatar-grey" src="../assets/img/home-5-image-02.png" alt="">
+      <div class="col-5 position-relative">
+        <img class="bg-avatar-grey " src="../assets/img/home-5-image-02.png" alt="">
+        <img class="position-absolute top-50 start-80 translate-middle cut_img" src="../assets/img/maxcoach-shape-07.png" alt="">
+        <img class="position-absolute top-50 start-0 translate-middle" src="../assets/img/maxcoach-shape-01.png" alt="">
       </div>
       <div class="col-5 m-4 d-flex flex-column align-items-start text-start pt-4">
         <span class="text-secondary fw-bold">WHAT ARE YOU LOOKING FOR?</span>
@@ -36,6 +39,17 @@ name: 'SezioneMain4',
 }
 </script>
 
-<style>
-
+<style lang ='scss'>
+.w_25{
+  width: 25%;
+};
+.w_95{
+  width: 95%;
+};
+.cut_img{
+  margin-left: 60px;
+  width: 18%;
+  height: 26%;
+  object-fit: cover;
+};
 </style>

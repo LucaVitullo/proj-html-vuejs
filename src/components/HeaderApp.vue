@@ -5,7 +5,7 @@
     <img class="w-50  " src="../assets/img/dark-logo.png" alt="">
   </div>
   <div class="col-6 justify-content-end d-flex">
-    <span class="px-2" v-for="(elemento) in navBar" :key="elemento.nome">{{elemento.nome}} <font-awesome-icon icon="fa-solid fa-angle-down" /></span>
+    <span class="px-2" v-for="elemento in navBar" :key="elemento">{{elemento}} <font-awesome-icon icon="fa-solid fa-angle-down" /></span>
   </div>
   <div class="col-2 justify-content-start d-flex ">
     <span>
@@ -14,7 +14,10 @@
     <span class="px-2">
       <font-awesome-icon icon="fa-solid fa-user" />
     </span>
-    <input class="w-50 border-0 ms-2 rounded-2 p-1 me-0" type="text" placeholder="Search">
+    <div class="bg-white rounded-2">
+      <input class=" border-0 w-50 rounded-2" type="text" placeholder="Search..." > 
+      <button class="border-0 bg-white ms-3"><font-awesome-icon class="text-success" icon="fa-solid fa-magnifying-glass" /></button>
+    </div>
   </div>
 </div>
 <div class="row justify-content-center p-2 text-center me-0">
@@ -37,14 +40,7 @@ export default {
   name: 'HeaderApp',
   data(){
     return {
-      navBar: [
-       {nome:'Home'} ,
-       {nome:'Pages'} ,
-       {nome:'Courses'} ,
-       {nome:'Features'} ,
-       {nome:'Blog'} ,
-       {nome:'shop'} 
-      ],
+      navBar: ['Home','Pages','Courses','Features','Blog','shop'],
     }
   }
 }

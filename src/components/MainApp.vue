@@ -40,7 +40,7 @@ export default {
 .bg-avatar-grey{
   background-image: url(../assets/img/underlay-shape-grey.svg);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   background-size: contain;
 
 };

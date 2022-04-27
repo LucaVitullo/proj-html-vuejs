@@ -19,11 +19,11 @@ import {faTwitter} from '@fortawesome/free-brands-svg-icons'
 import {faInstagram} from '@fortawesome/free-brands-svg-icons'
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import {faCopyright} from '@fortawesome/free-regular-svg-icons'
-
+import {faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons'
 
 //library
 import { library } from '@fortawesome/fontawesome-svg-core'
-library.add(faAngleDown,faCartShopping,faUser,faArrowRight,faArrowUp,faCircleMinus,faCirclePlus,faFileLines,faLocationDot,faCircle,faFacebookSquare,faTwitter,faInstagram,faLinkedin,faCopyright)
+library.add(faAngleDown,faCartShopping,faUser,faArrowRight,faArrowUp,faCircleMinus,faCirclePlus,faFileLines,faLocationDot,faCircle,faFacebookSquare,faTwitter,faInstagram,faLinkedin,faCopyright,faMagnifyingGlass,)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
