@@ -21,21 +21,9 @@
 
     </div>
     <div class="row me-0 justify-content-center mt-4 p-4 bg_lv">
-      <div class="col-2 p-2">
-        <h1 class="text-success">1.926</h1>
-        <span>FINISHED SESSION</span>
-      </div>
-      <div class="col-2 p-2">
-        <h1 class="text-success">3.092+</h1>
-        <span>ENROLLED LEARNERS</span>
-      </div>
-      <div class="col-2 p-2">
-        <h1 class="text-success">200</h1>
-        <span>ONLINE INSTRUCTORS</span>
-      </div>
-      <div class="col-2 p-2">
-        <h1 class="text-success">100%</h1>
-        <span>SATISFACTION RATE</span>
+      <div class="col-2 p-2" v-for="element,i in Statistic" :key="i">
+        <h1 class="text-success">{{element.number_statistic}}</h1>
+        <span>{{element.data_statistic}}</span>
       </div>
     </div>
   </section>
@@ -44,7 +32,29 @@
 
 <script>
 export default {
-name: 'SezioneMain2',
+  name: 'SezioneMain2',
+  data(){
+    return{
+      Statistic:[
+        {
+          number_statistic:"1.926",
+          data_statistic:"FINISHED SESSION",
+        },
+        {
+          number_statistic:"3.092+",
+          data_statistic:"ENROLLED LEARNERS",
+        },
+        {
+          number_statistic:"200",
+          data_statistic:"ONLINE INSTRUCTORS",
+        },
+        {
+          number_statistic:"100%",
+          data_statistic:"SATISFACTION RATE",
+        },
+      ]
+    }
+  }
 
 }
 </script>
