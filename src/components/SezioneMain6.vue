@@ -7,7 +7,7 @@
       </h1>
     </div>
     <carousel
-      class="row justify-content-center align-center pt-4 me-0"
+      class="row justify-content-center align-center pt-4 mx-0"
       :perPageCustom="[
         [768, 3],
         [1024, 3],

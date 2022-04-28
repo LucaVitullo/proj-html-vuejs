@@ -16,9 +16,9 @@
         <span class="px-2">
           <font-awesome-icon icon="fa-solid fa-user" />
         </span>
-        <div class="bg-white rounded-2">
+        <div class="bg-white rounded-2 position relative">
           <input
-            class="border-0 w-50 rounded-2"
+            class="border-0 w-50 rounded-2 position absolute left-0"
             type="text"
             placeholder="Search..."
           />

@@ -6,22 +6,26 @@
         <div class="hover_underline" v-for="i in Address" :key="i">
           {{ i }}
         </div>
-        <font-awesome-icon
-          class="p-2 mt-2 text-secondary"
-          icon="fa-brands fa-facebook-square"
-        />
-        <font-awesome-icon
-          class="p-2 text-secondary"
-          icon="fa-brands fa-twitter"
-        />
-        <font-awesome-icon
-          class="p-2 text-secondary"
-          icon="fa-brands fa-instagram"
-        />
-        <font-awesome-icon
-          class="p-2 text-secondary"
-          icon="fa-brands fa-linkedin"
-        />
+        <a href="https://www.facebook.com/profile"
+          ><font-awesome-icon
+            class="p-2 mt-2 text-secondary fs-2"
+            icon="fa-brands fa-facebook-square"
+        /></a>
+        <a href="https://twitter.com/intent/tweet?text=Hello%20worl"
+          ><font-awesome-icon
+            class="p-2 text-secondary fs-2"
+            icon="fa-brands fa-twitter"
+        /></a>
+        <a href="https://www.instagram.com/"
+          ><font-awesome-icon
+            class="p-2 text-secondary fs-2"
+            icon="fa-brands fa-instagram"
+        /></a>
+        <a href="https://it.linkedin.com/"
+          ><font-awesome-icon
+            class="p-2 text-secondary fs-2"
+            icon="fa-brands fa-linkedin"
+        /></a>
       </div>
       <div class="col-2 text-start">
         <span class="fw-bold">Explore</span>
