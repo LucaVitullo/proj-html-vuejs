@@ -1,12 +1,12 @@
 <template>
   <section class="sezione3">
-    <div class="row px-0 justify-content-center pt-4 me-0 mb-4 flex-wrap">
+    <div class="row px-0 justify-content-center pt-4 me-0 mb-4 flex-wrap gap-4">
       <span class="text-secondary fs-6"> CHOOSE WHERE YOU'D LIKE TO BEGIN</span>
       <h1 class="p-2 mt-2">
         Latest Featured<span class="text-success"> Courses</span>
       </h1>
       <div
-        class="col-3 m-2 position-relative bg_hover"
+        class="col-3 position-relative bg_hover p-0 pb-4"
         v-for="(element, i) in Lessons"
         :key="i"
       >
