@@ -16,7 +16,7 @@
       <slide
         v-for="(element, index) in Employees"
         :key="index"
-        class="col-4 bg-light position-relative p-4 rounded-2 my-4 ms-2"
+        class="col-4 bg-light position-relative p-4 rounded-2 my-4 m-1"
       >
         <img
           class="
@@ -31,7 +31,7 @@
           "
           :src="require(`../assets/img/${Employees[index].path_image}`)"
         />
-        <p class="my-4 p-3">{{ Employees[index].Paragraph }}</p>
+        <p class="m-4 p-4">{{ Employees[index].Paragraph }}</p>
         <span class="fw-bold d-block">{{ Employees[index].Name }}</span>
         <span>{{ Employees[index].Profession }}</span>
       </slide>
