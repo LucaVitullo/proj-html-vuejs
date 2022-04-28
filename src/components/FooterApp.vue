@@ -38,19 +38,20 @@
       <h6 class="my-4 text-secondary position-relative">
         <font-awesome-icon icon="fa-regular fa-copyright" />
         2020 Maxcoach. All Rights Reserved
-        <font-awesome-icon
-          class="
-            position-absolute
-            bottom-0
-            end-0
-            p-4
-            me-2
-            bg-success
-            text-light
-            rounded-pill
-          "
-          icon="fa-solid fa-arrow-up"
-        />
+        <a href="#HeaderApp"
+          ><font-awesome-icon
+            class="
+              position-absolute
+              bottom-0
+              end-0
+              p-4
+              me-2
+              bg-success
+              text-light
+              rounded-pill
+            "
+            icon="fa-solid fa-arrow-up"
+        /></a>
       </h6>
     </div>
   </div>

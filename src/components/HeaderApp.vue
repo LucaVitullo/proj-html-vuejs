@@ -1,11 +1,11 @@
 <template>
-  <div class="HeaderApp">
+  <div id="HeaderApp">
     <div class="row justify-content-center p-2 mb-4 me-0">
       <div class="col-2">
         <img class="w-50" src="../assets/img/dark-logo.png" alt="" />
       </div>
       <div class="col-6 justify-content-end d-flex">
-        <span class="px-2" v-for="elemento in navBar" :key="elemento"
+        <span class="px-2 c_p" v-for="elemento in navBar" :key="elemento"
           >{{ elemento }} <font-awesome-icon icon="fa-solid fa-angle-down"
         /></span>
       </div>
@@ -61,9 +61,12 @@ export default {
 </script>
 
 <style  lang="scss" >
-.HeaderApp {
+#HeaderApp {
   background-color: #dedbd9;
   background-image: url(../assets/img/jumbo-overlay.svg);
+}
+.c_p {
+  cursor: pointer;
 }
 .download {
   background-color: green;

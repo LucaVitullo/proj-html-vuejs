@@ -11,7 +11,7 @@
         :key="i"
       >
         <img
-          class="w-50 m-auto"
+          class="w_50l m-auto transform"
           :src="require(`../assets/img/${element.Image_courses}`)"
         />
         <span class="fs-6 mb-2 fw-bold">{{ element.Title }}</span>
@@ -38,6 +38,9 @@ export default {
 </script>
 
 <style lang ='scss'>
+.w_50l:hover {
+  transform: scale(0.9, 0.9);
+}
 .hover {
   color: grey;
   cursor: pointer;

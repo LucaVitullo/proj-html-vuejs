@@ -16,12 +16,12 @@
       <slide
         v-for="(element, index) in Employees"
         :key="index"
-        class="col-4 bg-light position-relative p-4 rounded-2 my-4 ms2"
+        class="col-4 bg-light position-relative p-4 rounded-2 my-4 ms-2"
       >
         <img
           class="
             w_20
-            mt-3  
+            mt-3
             p-3
             rounded-pill
             position-absolute
@@ -92,4 +92,7 @@ export default {
 </script>
 
 <style lang="scss">
+.button {
+  cursor: pointer;
+}
 </style>
