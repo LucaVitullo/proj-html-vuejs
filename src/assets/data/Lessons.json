@@ -1,0 +1,51 @@
+[
+    {"Image_lessons":"course-02-480x298.jpg",
+      "Avatar_image":"73ee246daf47502812ccefc84bf02898.jpeg",
+      "Name_teacher":"Blanche Fields",
+      "Paragraph":"Learning to Write as a Professional Author",
+      "Number_lessons":"20 Lessons",
+      "Number_student":"50 Students",
+      "Label":"$40.00"
+    },
+    {"Image_lessons":"stock-full-hd-03-480x298.jpg",
+      "Avatar_image":"d0d504142acfde820eef2f11feea6253.jpeg",
+      "Name_teacher":"Maggie Strickland",
+      "Paragraph":"Customer-centric Info-Tech Strategies",
+      "Number_lessons":"24 Lessons",
+      "Number_student":"769 Students",
+      "Label":"Free"
+    },
+    {"Image_lessons":"stock-full-hd-04-480x298.jpg",
+      "Avatar_image":"d0d504142acfde820eef2f11feea6253.jpeg",
+      "Name_teacher":"Maggie Strickland",
+      "Paragraph":"Open Programming Courses for Everyone: Python",
+      "Number_lessons":"17 Lessons",
+      "Number_student":"62 Students",
+      "Label":"$19.00"
+    },
+    {"Image_lessons":"stock-full-hd-06-480x298.jpg",
+      "Avatar_image":"73ee246daf47502812ccefc84bf02898.jpeg",
+      "Name_teacher":"Blanche Fields",
+      "Paragraph":"Academic Listening and Note-taking",
+      "Number_lessons":"14 Lessons",
+      "Number_student":"67 Students",
+      "Label":"$26.00"
+    },
+    {"Image_lessons":"course-featured-image-01-480x298.jpg",
+      "Avatar_image":"73ee246daf47502812ccefc84bf02898.jpeg",
+      "Name_teacher":"Blanche Fields",
+      "Paragraph":"Master jQuery in a Short Period of Time",
+      "Number_lessons":"6 Lessons",
+      "Number_student":"51 Students",
+      "Label":"$39.00"
+    },
+    {"Image_lessons":"stock-full-hd-05-480x298.jpg",
+      "Avatar_image":"73ee246daf47502812ccefc84bf02898.jpeg",
+      "Name_teacher":"Blanche Fields",
+      "Paragraph":"Introduction to Javascript for Beginners",
+      "Number_lessons":"14 Lessons",
+      "Number_student":"76 Students",
+      "Label":"$59.00"
+    }
+
+  ]

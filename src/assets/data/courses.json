@@ -1,0 +1,30 @@
+[
+   {
+      "Image_courses": "home-5-image-box-01.png",
+      "Title": "Idea Discussion",
+      "Paragraph":
+        "Get teamed up with the specialists who work and teach coding for years at famous universities",
+      "Label": "Start now"
+    },
+    {
+      "Image_courses": "home-5-image-box-02.png",
+      "Title": "Web Development",
+      "Paragraph":
+        "Learn to start building a webpage from scratch. You decide your own pace, course and speed",
+      "Label": "Start now"
+    },
+    {
+      "Image_courses": "home-5-image-box-03.png",
+      "Title": "System Administration",
+      "Paragraph":
+        "Learners are encouraged to study the mechanism and structure of system administration",
+      "Label": "Start now"
+    },
+    {
+      "Image_courses": "home-5-image-box-04.png",
+      "Title": "Graphic Design",
+      "Paragraph":
+        "Have a passion for graphics and arts? Show your talents with confidence and self-assertiveness",
+        "Label": "Start now"
+    }
+  ]
