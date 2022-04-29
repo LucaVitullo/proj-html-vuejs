@@ -16,13 +16,13 @@
         <span class="px-2">
           <font-awesome-icon icon="fa-solid fa-user" />
         </span>
-        <div class="bg-white rounded-2 position relative">
+        <div>
           <input
-            class="border-0 w-50 rounded-2 position absolute left-0"
+            class="border-0 w-50 bg-white"
             type="text"
             placeholder="Search..."
           />
-          <button class="border-0 bg-white ms-3">
+          <button class="border-0 bg-white">
             <font-awesome-icon
               class="text-success"
               icon="fa-solid fa-magnifying-glass"
