@@ -52,10 +52,8 @@
 <script>
 export default {
   name: "HeaderApp",
-  data() {
-    return {
-      navBar: ["Home", "Pages", "Courses", "Features", "Blog", "shop"],
-    };
+  props: {
+    navBar: Array,
   },
 };
 </script>
